@@ -1,0 +1,98 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background-image.jpg'); /* Add a background image if desired */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Form Container */
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Heading Style */
+h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Form Input Fields */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Textarea Specific Styling */
+textarea {
+    resize: vertical;
+}
+
+/* Placeholder Text */
+input::placeholder, textarea::placeholder {
+    color: #888;
+}
+
+/* Submit Button Style */
+button {
+    background-color: #FF5733; /* Red color */
+    color: white;
+    font-size: 18px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e04e2a; /* Slightly darker red */
+}
+
+/* Submit Link Styling */
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Additional Mobile Responsiveness */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        width: 90%;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    input[type="text"], textarea {
+        font-size: 14px;
+    }
+    button {
+        font-size: 16px;
+    }
+}

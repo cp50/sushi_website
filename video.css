@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+}
+<h1>{
+    text-align: center;
+    color: forestfreen;
+    margin: 10px 0 15px;
+}
+</h1>
+.video{
+    margin: 10px 50px;
+}
+.video{
+    width: 150px;
+   padding: 5px;
+   transition: 1s;
+}
